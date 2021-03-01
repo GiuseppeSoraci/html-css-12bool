@@ -12,9 +12,76 @@
 </head>
 
 <body>
-    <section class="container">
-        <div class="col-12"><div class="box">12col</div></div>
-        <div class="col-2"><div class="box">2col</div></div>
-    </section>    
+    <!-- 12 COL -->
+    <div class="container">        
+        <div class="col-12"><div class="box">12</div></div>       
+    </div>
+    
+    <!-- 1 COL -->
+    <div class="container">
+        <div class="col-1"><div class="box">1</div></div>
+        <div class="col-1"><div class="box">1</div></div>       
+        <div class="col-1"><div class="box">1</div></div>       
+        <div class="col-1"><div class="box">1</div></div>       
+        <div class="col-1"><div class="box">1</div></div>       
+        <div class="col-1"><div class="box">1</div></div>       
+        <div class="col-1"><div class="box">1</div></div>       
+        <div class="col-1"><div class="box">1</div></div>       
+        <div class="col-1"><div class="box">1</div></div>       
+        <div class="col-1"><div class="box">1</div></div>       
+        <div class="col-1"><div class="box">1</div></div>       
+        <div class="col-1"><div class="box">1</div></div>       
+    </div>
+
+    <!-- 3 COL -->
+    <div class="container">
+        <div class="col-3"><div class="box">3</div></div>       
+        <div class="col-3"><div class="box">3</div></div>       
+        <div class="col-3"><div class="box">3</div></div>       
+        <div class="col-3"><div class="box">3</div></div> 
+    </div>
+    
+    <!-- 4 COL -->
+    
+    <div class="container">
+        <div class="col-4"><div class="box">4</div></div>
+        <div class="col-4"><div class="box">4</div></div> 
+        <div class="col-4"><div class="box">4</div></div> 
+    </div>
+
+    <!-- Nesting Columns -->
+    <div class="container">
+        <div class="col-6 padding-0">
+            <div class="container">
+                <div class="col-12"><div class="box">12</div></div>
+                <div class="col-2"><div class="box">2</div></div>
+                <div class="col-2"><div class="box">2</div></div>
+                <div class="col-8"><div class="box">8</div></div>
+            </div>
+        </div>
+        <div class="col-6 padding-0">
+            <div class="container">
+                <div class="col-6"><div class="box">6</div></div>
+                <div class="col-6"><div class="box">6</div></div>
+                <div class="col-6"><div class="box">4</div></div>
+                <div class="col-6"><div class="box">4</div></div>
+            </div>
+        </div>
+    </div>   
+
+    <!-- Offset -->
+    <div class="container">
+        <div class="col-8 offset-2"><div class="box">8</div>
+    </div>
+
+    <div  class="container">
+        <div class="col-4"><div class="box">4</div></div>
+        <div class="col-4 offset-4"><div class="box">4</div></div>
+    </div>
+
+    <div class="container">
+        <div class="col-6 offset-6"><div class="box">6</div>
+    </div>    
+
 </body>
 </html>
