@@ -1,0 +1,18 @@
+/* GENERAL */
+body {
+    min-height: 100vh;
+    padding: 4rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: linear-gradient(0.25turn, #3f87a6, #3cc1f6, #4369bb);
+}
+
+.box {  
+    padding: 10px;
+    text-align: center;
+    background: #253bb8;
+    border: 1px solid rgba(0,0,0, .4)   
+}
+
+
+
